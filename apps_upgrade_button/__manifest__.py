@@ -5,10 +5,11 @@
     'sequence': 6,
     'summary': 'Upgrade installed module in Kanban view without going in form view',
     'description': '''
-        If an app is installed. It shows "Upgrade" Button in kanban view.
+        If an app is installed. It shows 'Upgrade' Button in kanban view.
     ''',
-    'author': "Tintumon .M",
-    'website': "http://www.tintumon.co.in",
+    'author': 'Tintumon .M',
+    'website': 'http://www.tintumon.co.in',
+    'license': 'AGPL-3',
     'depends': [
         'base',
         'web'
