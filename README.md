@@ -1,6 +1,6 @@
 # Odoo addons
 App Upgrade button in kanban view -  Technical Name : app_upgrade_button
- * Enables Upgrade Button in App Kanban view.
+ * Enables Upgrade/Uninstall Button in App Kanban view.
 <hr/>
     <div class="oe_row">
         <h3>Get Help &amp; Support</h3>

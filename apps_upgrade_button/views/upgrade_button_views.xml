@@ -7,9 +7,12 @@
             <field name="inherit_id" ref="base.module_view_kanban"/>
             <field name="arch" type="xml">
                 <data>
-                    <xpath expr="//div[@class='oe_module_desc']" position="after">
-                        <button type="object" class="btn btn-primary pull-left btn-sm" name="button_immediate_upgrade"
-                                states="installed" string="Upgrade">Upgrade
+                    <xpath expr="//div[@class='oe_module_action']" position="before">
+                        <button type="object" class="btn btn-primary pull-left btn-sm"
+                                name="button_immediate_upgrade" states="installed" string="Upgrade">Upgrade
+                        </button>
+                        <button type="object" class="btn btn-secondary btn-sm"
+                                name="button_uninstall_wizard" states="installed" string="Uninstall">Uninstall
                         </button>
                     </xpath>
                 </data>
